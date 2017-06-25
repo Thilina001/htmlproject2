@@ -1,0 +1,342 @@
+@charset "UTF-8";
+*{ margin: 0;padding: 0; }
+.clearfix{
+	overflow: auto;
+}
+
+
+
+a {
+text-decoration: none;/* links vala underline ivath kirima*/
+
+}
+a{
+	color: red;
+
+	
+}
+
+p{
+	margin-top:10px;
+	margin-bottom: 15px; 
+	font-size: 18px;
+}
+.wrapper{
+ margin: 0 auto;
+  width:1000px;
+}
+
+.topbar{
+width: 1000px;
+background:maroon; 
+}
+
+.topbarlinks{
+	margin: 15px;
+  float: left;
+}
+.topbarlinks ul{
+	list-style: none;/*romve bullat*/
+}
+.topbarlinks ul li{
+	padding: 0 10px;/*links tika aath kirima*/
+	display: inline-block;
+	border-right:1px solid white;/*dakunu paththata border 1k damma*/
+
+}
+.topbarlinks ul li a{
+	color:white;
+
+}
+
+.topbarlinks ul li :last-child {/* anthima link 1ke border 1k ain karanna*/
+border:0         ;
+}
+
+.topbarsearch{
+	padding:5px;  
+	margin: 15px;
+	float: right;
+	background-color: white;
+	 border-radius: 10px;/*raum border 1ka*/
+	padding: 0 10px; 
+}
+.topbarsearch:hover{
+	background-color: orange;
+}
+.topbarsearch input{
+	margin: 3px;
+	border: 0;
+	float: left;
+}
+.topbarsearch button{
+	margin: 3px;
+ background: url(../img/icons/search.png);/*button 1kaka back ground 1kta pic 1ak daganima*/
+height: 18px;
+width: 18px;
+border: 0;
+float: right;
+}
+
+header .logo{
+	float: left;
+}
+
+header .logo h1:hover{/*mouse pointer 1ka ln karana vita pata venas vima*/
+	 color: gray;
+}
+
+
+header .logo h1{
+	margin-top: 25px;
+font-size:48px; 
+font-variant: small-caps;
+font-weight: normal;
+letter-spacing: -1px;
+}
+
+
+header .socialmedia{
+	float: right;
+	margin-top: 25px;
+}
+header .socialmedia ul {
+	list-style: none;
+}
+
+header .socialmedia ul li{
+	display: inline;
+}
+header .socialmedia ul li a {
+
+	width: 32px;
+	height: 32px;
+	margin-left: 7px;
+	margin-top:15px;
+	display: inline-block;
+
+}
+header .socialmedia ul li a:hover{
+	background: orange;
+
+}
+
+nav{
+
+background-color: black;
+background: linear-gradient(#333,#444,#333);
+text-align: center;
+border-radius: 8px;
+margin-top: 15px;
+
+}
+
+nav ul li{
+display:  inline-block;
+list-style: none;
+
+}
+nav ul li a{
+	
+	text-transform: uppercase;
+	margin-left: 20px;margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	color: orange;
+}
+nav ul li a:hover{
+	color: white;
+}
+div .intro{
+	width: 970px;
+	margin-top: px;
+
+}
+
+.intro .introimage{
+	width: 400px;
+	float:left;
+}
+.introimage img{
+	float: left;
+}
+
+
+
+.intro .introtext{
+	width: 570px;
+	float: right ;
+}
+div.introtext h1{
+	margin-top: 100px;
+	text-transform:uppercase;
+    font-size:72px;
+    color: black;
+}
+
+div.introtext p{
+	color: black;
+	font-size: 18px;
+}
+div.introtext a{
+	color: red;
+	float: right;
+	
+}
+
+div.homecontent{
+
+	width: 1000px;
+	background:#bbb;
+	padding-bottom: 15px;	
+}
+
+div.homecol{
+	float:left;
+	width:313.33px;
+	margin-left:15px;
+	margin-top: 10px;
+}
+
+div.homecol img{
+	width:313.33px;
+}
+.homecol h2{
+	margin:0px 0 30px 10px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.homecol a{
+	float: right;
+}
+
+div.services{
+	padding-top: 15px;
+}
+div.services img{
+	width: 64px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+	div.services h3{
+		padding-top: 0px;
+
+	}
+div.quote h3{
+	margin-bottom: 15px;
+}
+
+div.quote{
+	margin-top: 50px;
+}
+
+footer{
+	width: 1000px;
+	margin-top: 15px;
+	margin-bottom:15px ;
+	padding: 15px;
+	
+
+}
+.footercol{
+	width:231.35px;
+	float: left;
+	height: px;
+	border-top: 1px solid black;
+	margin-left: 15px;
+}
+
+.footercol h4{
+	margin-top: 15px;
+	color: black; 
+}
+div.tweet p{
+	font-size:15px;
+	
+}
+
+.footercol ul li a{
+	color: gray;
+}
+.footercol ul li a::before{
+	content:"»";
+}
+
+.footercol ul li{
+	padding-bottom: 5px;
+	list-style: none;
+	margin-top: 5px;
+	border-bottom: 1px solid black;
+}
+
+.footercol ul li a:hover{
+	color: red;
+
+}
+
+div.blogpost{
+	clear:both;
+}
+div.blogpost h5{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.blogpost p{
+	font-size:15px;
+}
+.blogpost a.readmore{
+	float: right;
+}
+
+div.contact input,textarea{
+	background-color:#eee;
+	margin-bottom: 5px;
+	border: none;
+	padding: 5px;
+	width: 221.35px;
+	border-radius: 5px;
+	font-family: inherit;
+}
+div.footercol h4{
+	margin-bottom: 5px;
+}
+
+div.contact textarea{
+	height: 200px;
+}
+
+div.contact button{
+	color: red;
+	background: #eee;
+	border: none; 
+	padding: 5px 10px;
+	border-radius: 5px;
+
+}
+
+div.contact button:hover{
+	color: blue;
+}
+
+div.copyright{
+	width: 1000px;
+	background:black;
+	float: left;
+	padding:10px;
+	color: white;
+	margin-bottom:10px;
+	margin-top: 10px;
+
+}
+
+div.left{
+	float:left;
+}
+
+div.right{
+	float:right;
+}
